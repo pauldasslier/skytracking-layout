@@ -136,7 +136,8 @@ body {
 }
 
 .content .content-left__img img {
-  height: 100%;
+  width: 100%;
+  vertical-align: bottom;
 }
 
 .content .content-center {
@@ -147,6 +148,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  margin-left: auto;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -178,6 +180,7 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   width: 75.7rem;
+  padding-top: 2.5rem;
 }
 
 .content .content-center__bottom {
@@ -187,6 +190,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  padding-top: 2rem;
 }
 
 .content .content-center__bottom div {
