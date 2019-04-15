@@ -1,0 +1,148 @@
+*
+  box-sizing: border-box
+
+html
+  font-size: 10px
+  
+body
+  display: flex
+  flex-direction: column
+  align-items: center
+  font-family: Arial, sans-serif
+  line-height: 2.2rem
+  font-size: 1.4rem
+
+.wrapper
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 110rem
+  height: 120rem
+  padding: 2.4rem 7rem 2.5rem 7rem
+
+.head
+  display: flex
+  align-items: flex-start
+  justify-content: space-between
+  position: relative
+  .line
+    position: absolute
+    left: 0
+    top: 13.3rem
+  .head-contact
+    width: 27.9rem
+    height: 10.8rem
+    background-color: #777777
+  .head-more
+    width: 51.3rem
+    height: 10.8rem
+    padding: 2.4rem 2.2rem
+    background-color: #777777
+    &__wrapper
+      display: flex
+      flex-direction: column
+      align-items: flex-end
+      a:first-child
+        text-decoration: none
+      a
+        color: #fff
+        font-weight: 400
+
+.content
+  display: flex
+  justify-content: space-between
+  .content-left
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    width: 18.4rem
+    min-height: 77.3rem
+    &__list
+      padding: 1.5rem 2rem 1.2rem 1rem
+      margin: 0
+      list-style: none
+      background-color: #777777
+      text-align: left
+      a
+        color: #fff
+        text-decoration: none
+      li:first-child
+        a
+          font-weight: 700
+  .content-center
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    &__top
+      width: 75.7rem
+      height: 21rem
+      padding: 2.2rem 7rem 2.2rem 2.1rem
+      color: #777777
+      background-color: #dcdcdc
+      p
+        margin: 0
+    &__middle
+      display: flex
+      flex-direction: row
+      flex-wrap: wrap
+      justify-content: space-between
+      width: 75.7rem
+    &__bottom
+      display: flex
+      justify-content: space-between
+      div
+        height: 20rem
+        padding: 0.5rem 2rem
+        color: #777777
+        background-color: #dcdcdc
+      &-left
+        width: 36.7rem
+      &-right
+        width: 37rem
+
+.footer
+  display: flex
+  align-items: flex-end
+  justify-content: space-between
+  position: relative
+  .line
+    position: absolute
+    left: 0
+    bottom: 20.2rem
+  .footer-left
+    display: flex
+    flex: 1
+    align-self: flex-start
+    background-color: #777777
+    &__list
+      list-style: none
+      a
+        color: #fff
+        text-decoration: none
+  .footer-center
+    flex: 1
+    align-self: flex-start
+    margin: 0 3rem
+    background-color: #777777
+    color: #fff
+    &__list
+      list-style-type: square
+      a
+        text-decoration: none
+        color: #fff
+  .footer-right
+    display: flex
+    flex: 1.04
+    flex-direction: column
+    justify-content: space-between
+    height: 18rem
+    &__top
+      height: 7.5rem
+      background-color: #777777
+    &__bottom
+      height: 7.5rem
+
+.line
+  height: 1px
+  width: 100%
+  background-color: #777777
